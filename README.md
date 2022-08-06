@@ -1,4 +1,5 @@
 # TSCollectionViewVerticalAlignLayout
 Swift UICollectionView custom Layout for Vertical align
 
-![ex_screenshot](./screenshot.png)
+## Bottom Align
+<img src="./screenshot.png" width="400">
