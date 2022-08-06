@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let layout = TSCollectionViewVerticalAlignLayout(verticalAlign: .top)
+        let layout = TSCollectionViewVerticalAlignLayout(verticalAlign: .center)
         collectionView.collectionViewLayout = layout
         collectionView.register(BaseCell.self, forCellWithReuseIdentifier: "BaseCell")
         collectionView.delegate = self
